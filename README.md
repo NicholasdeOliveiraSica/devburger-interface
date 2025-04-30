@@ -32,7 +32,11 @@ Este é o repositório da interface do **DevBurger**, um projeto desenvolvido pa
   ```
 4. Inicie o servidor de desenvolvimento:
   ```bash
-  npm start
+  npm run dev
+  ```
+5. Acesse o link local do Vite:
+  ```bash
+  [localhost:5432](http://localhost:5173/)
   ```
 
 ## Estrutura de Pastas
