@@ -1,5 +1,6 @@
 import { Banner, Container, Content, Footer, Header, Main, SecOne, SecTwo } from "./styles";
 import PurpleNote from "../../assets/purple-note.svg"
+import { CategoriesCarousel } from "../../components/CategoriesCarousel";
 
 export function Home() { 
   return (
@@ -14,9 +15,9 @@ export function Home() {
           <img src={PurpleNote}/>
           <Container>
             <h1>CARROSEL - working in</h1>
-            <Content>
+            <CategoriesCarousel>
               <div></div>
-            </Content>
+            </CategoriesCarousel>
           </Container>
         </SecOne>
         <SecTwo></SecTwo>
